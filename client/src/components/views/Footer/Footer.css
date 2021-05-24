@@ -1,0 +1,68 @@
+.Footer {
+  position: relative;
+  width: 100%;
+  background-color: #000000;
+  bottom: 0;
+}
+
+
+.Service {
+  color: #01bf71;
+  font-family: 'sandol';
+  padding: 10px 150px;
+  padding-bottom: 0;
+  margin-bottom: 10px;
+}
+
+
+.AboutUs {
+  padding: 2px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+
+.TeamIntroduce {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+
+.Team {
+  font-size: 20px;
+
+  opacity: 0.7;
+}
+
+
+.TeamMember {
+  font-size: 14px;
+
+  opacity: 0.8;
+}
+
+
+.Contact {
+  align-self: flex-end;
+}
+
+
+.ContactUs {
+  font-size: 14px;
+  color: grey;
+
+  text-align: end;
+}
+
+
+.Copyrights {
+  font-size: 10px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: gray;
+}

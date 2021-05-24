@@ -1,0 +1,25 @@
+
+.comment-container {
+	-webkit-transition: background-color 0.7s;
+	transition: background-color 0.7s;
+}
+.comment-container:hover {
+  background-color: rgb(237, 252, 247);
+}
+.comment-update-input:hover,.comment-input:hover{
+  border-color: rgb(3, 165, 111);
+}
+
+.comment-update-input:focus,.comment-input:focus{
+  border-color: rgb(3, 165, 111);
+  box-shadow: 0 0 0 2px rgb(3 165 111 / 20%);
+}
+.comment-update-btn1,.comment-update-btn2{
+  border-radius: 30px;
+}
+.comment-update-btn1:hover,.comment-update-btn2:hover,.comment-input-btn:hover{
+  color: rgb(3, 165, 111);
+    background: #fff;
+    border-color: rgb(3, 165, 111);
+}
+

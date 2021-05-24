@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'ELAND_Nice_M';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/ELAND_Nice_M.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.form-group input{
+  width:30%
+}
+.form-group input:focus {
+  border-color: rgb(3, 165, 111);
+  box-shadow: 0 0 0 2px rgb(3 165 111 / 20%);
+}
+
+.hidden {
+  display: none;
+}
+
+.playlist-title {
+  font-family: 'ELAND_Nice_M';
+}
+.playlist-card{
+  border-radius: 0 !important;
+}

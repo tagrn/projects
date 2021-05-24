@@ -1,0 +1,4 @@
+.navbarInput input:focus {
+  border-color: #1ee494 !important;
+  box-shadow: 0 0 0 0.1rem #94d3ac !important;
+}

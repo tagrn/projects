@@ -1,0 +1,59 @@
+.video-info-container {
+  margin-right: 3rem;
+}
+
+.classListItem {
+  cursor: 'pointer';
+  background-color: #effcef !important;
+  border: none !important;
+}
+
+.classListNormalItem {
+  cursor: 'pointer';
+  background-color: white !important;
+  border: none !important;
+  float: left;
+}
+
+
+.card-content {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  padding: 50px 0 0;
+  border-radius: 5px;
+
+  .card-row {
+    width: 100%;
+    height: 100%;
+  }
+
+  h2 {
+    font-weight: 300;
+    font-size: 3em;
+    line-height: 1;
+    margin: 0 0 30px;
+
+    strong {
+      font-weight: 700;
+      display: block;
+    }
+  }
+}
+
+
+.like-save-container {
+  display: flex;
+
+  svg {
+    margin-right: 10px;
+    font-size: 30px;
+  }
+}
+
+.hidden {
+  display: none;
+
+}
+

@@ -1,0 +1,109 @@
+.colpage {
+  border-width: 3px;
+  border: 3px;
+  border-color: black;
+}
+
+.colcard {
+  margin-left: 0px;
+  margin-right: 10px;
+}
+
+.cardBoard {
+  display: grid !important;
+  grid-template-columns: repeat(4, 1fr) !important;
+  color: black;
+
+}
+
+.classCard {
+  border: none !important;
+  border-radius: 30px !important;
+
+
+}
+
+.classTitle {
+  font-weight: bold !important;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.classTitle:hover {
+  overflow: unset;
+}
+
+.classCard:hover {
+  transform: scale(1.02);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.classImg {
+
+  border-radius: 15% !important;
+}
+
+.ant-menu-submenu-active {
+
+  color: #94d3ac !important;
+}
+
+.ant-menu-submenu-active i {
+
+  color: #94d3ac !important;
+}
+
+.ant-menu-submenu>.ant-menu-submenu-title .ant-menu-submenu-arrow::before {
+  color: black !important;
+}
+
+.ant-menu-submenu>.ant-menu-submenu-title .ant-menu-submenu-arrow::after {
+  color: black !important;
+}
+
+.ant-menu-submenu-active>.ant-menu-submenu-title .ant-menu-submenu-arrow::before {
+  color: #94d3ac !important;
+}
+
+.ant-menu-submenu-active>.ant-menu-submenu-title .ant-menu-submenu-arrow::after {
+  color: #94d3ac !important;
+}
+
+.ant-menu-submenu-active span {
+  color: #94d3ac !important;
+}
+
+.ant-menu-item-selected {
+  background-color: #effcef !important;
+  color: #655c56 !important;
+}
+
+.ant-menu-inline .ant-menu-item::after {
+
+  border-right: 3px solid #655c56 !important;
+}
+
+.classmenu:hover {
+  color: #94d3ac !important;
+}
+
+.classBigMenu:hover {
+  color: #94d3ac !important;
+}
+
+.algoButton {
+  background-color: #fc8a15 !important;
+
+  color: white !important;
+
+  border: none !important;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.classInput:focus {
+  border-color: #1ee494 !important;
+  box-shadow: 0 0 0 0.1rem #94d3ac !important;
+}

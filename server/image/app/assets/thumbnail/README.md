@@ -1,0 +1,2 @@
+# Thumbnail 폴더
+

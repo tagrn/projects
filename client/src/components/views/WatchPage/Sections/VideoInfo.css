@@ -1,0 +1,11 @@
+
+.watch-videoupdate-title:focus,.watch-videoupdate-content textarea:focus {
+	border-color: rgb(1, 193, 113);
+	box-shadow: 0 0 0 2px rgb(1 193 113/ 20%);
+}
+.watch-videoupdate-title {
+  margin-bottom: 15px;
+}
+.watch-videoupdate-title:hover,.watch-videoupdate-content textarea:hover {
+	border-color: rgb(1, 193, 113);
+}

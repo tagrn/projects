@@ -1,0 +1,93 @@
+.Nav {
+  background: #000;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+
+.NavContainer {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  z-index: 1;
+  width: 100%;
+}
+
+
+.NavLogo {
+  color: #fff;
+  justify-self: flex-start;
+  cursor: pointer;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+.NavMenu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-left: 40px;
+  height: 80px;
+  z-index: 1;
+  width: 100%;
+}
+
+.NavMenu-right {
+  display: flex;
+  justify-content: flex-end;
+  float: right;
+  align-items: center;
+  height: 80px;
+  z-index: 1;
+  width: 100%;
+}
+
+.NavItem-right {
+  float: right;
+  margin-right: 1rem;
+}
+
+.NavLink {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin-left: 15px;
+  margin-right: 15px;
+  height: 100%;
+  cursor: pointer;
+}
+
+
+.NavLink:hover {
+  border-bottom: 3px solid #01bf71;
+}
+
+
+.Nav-AccountBtn {
+  width: 100px;
+  height: 50px;
+  border-radius: 30px;
+  background: #01bf71;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+
+.sidebar {
+  background: #000;
+}

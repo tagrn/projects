@@ -1,0 +1,16 @@
+.CommentBackground {
+  background-color: white !important;
+}
+
+
+.iconCenter {
+  margin-left: auto;
+  margin-right: auto;
+  display: block !important;
+}
+
+
+.commentInput:focus {
+  border-color: #1ee494 !important;
+  box-shadow: 0 0 0 0.1rem #94d3ac !important;
+}

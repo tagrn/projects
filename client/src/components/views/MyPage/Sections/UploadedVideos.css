@@ -1,0 +1,54 @@
+
+@font-face {
+  font-family: 'Cafe24Danjunghae';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Danjunghae.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.uploadedvideo {
+  text-align: center;
+  justify-content: center;
+}
+
+
+.colcard {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+.board {
+  display: flex;
+  justify-content: start;
+  margin-left: 80px;
+}
+.mypage-uploadvideo-container{
+  width: 90%;
+  margin:auto;
+}
+
+.mypage-card-title {
+  display: inline-block;
+}
+.mypage-card-title h1{
+  font-family: 'Cafe24Danjunghae';
+}
+.mypage-card-title h1 {
+  display: block;
+}
+.mypage-card-title h1:after {
+  content: "";
+  display: block;
+  transform: translateY(-50%);
+  height: 10px;
+  width: 0px;
+  background-color: #a2e9ab;
+  margin-top: 5px;
+  transition: 0.3s ease-in-out;
+  z-index: 2;
+}
+.mypage-card-title h1:hover::after {
+  width: 100%;
+}
