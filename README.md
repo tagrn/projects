@@ -240,7 +240,7 @@
   >
   > 검색을 통해 원하는 키워드를 검색할 수 있으며 답변이 마음에 드는 경우 채택하기 버튼을 클릭할 수 있습니다.
 
-  <img src="./README.assets/커뮤니티-채택-댓글.gif" width="500px" />
+  <img src="./README.assets/커뮤니티 채택 댓글.gif" width="500px" />
 
 
 
