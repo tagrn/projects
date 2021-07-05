@@ -260,11 +260,7 @@
 
 ### 회고록
 
-- <a href="./docs/review/Gu.md">태완's 리뷰</a>
-- <a href="./docs/review/Kwon.md">세진's 리뷰</a>
-- <a href="./docs/review/Park.md">노정's 리뷰</a>
-- <a href="./docs/review/Lee.md">경연's 리뷰</a>
-- <a href="./docs/review/Jeong.md">예림's 리뷰</a>
+- <a href="./docs/review/Gu.md">나의 리뷰</a>
 
 ### 이미지
 
