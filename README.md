@@ -1,5 +1,3 @@
-<img src="./README.assets/image-20210520215951684.png" width="500px" style="text-align: center;">
-
 <div style="text-align: center;">
     <h3 style="text-align: center;">
         코딩 스터디 동영상 공유 플랫폼
@@ -268,15 +266,11 @@
 
 - 프로필 기본이미지
 
-  - 첫 번째
-
-    <img src="./docs/image/profile_first.png" width="500px" />
-
-  * 두 번째
+  * 첫 번째
 
     <img src="./docs/image/profile_second.png" width="500px" />
   
-  * 세 번쨰 (**최종 선정된 프로필 기본이미지**)
+  * 두 번쨰 (**최종 선정된 프로필 기본이미지**)
   
     <img src="./docs/image/profile.png" width="500px" />
   
