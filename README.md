@@ -255,48 +255,12 @@
 * 정예림 - FrontEnd, Notion
 
 
-
 ## 그 밖에...
 
 ### 회고록
 
 - <a href="./docs/review/Gu.md">나의 리뷰</a>
 
-### 이미지
-
-* <a href="./docs/image">이미지 폴더</a>
-
-- 프로필 기본이미지
-
-  * 첫 번째
-
-    <img src="./docs/image/profile_second.png" width="500px" />
-  
-  * 두 번쨰 (**최종 선정된 프로필 기본이미지**)
-  
-    <img src="./docs/image/profile.png" width="500px" />
-  
-- 비디오 업로드 완료 이미지
-
-  - <img src="./docs/image/okay.png" width="500px" />
-
-- 마이 플레이리스트 카드 배경이미지
-
-  <img src="./docs/image/cardbackground.png" width="500px" />
-
-- 메인페이지 배경이미지
-
-  <img src="./docs/image/back.png" width="500px" />
-
-- 커뮤니티
-
-  - 채택된 댓글에 표시되는 아이콘
-
-    <img src="./docs/image/winner.png" width="500px" />
-
-- 클래스 썸네일 이미지
-
-  <img src="./docs/image/thumbnail.png" width="500px" />
 
 ### 동영상
 
