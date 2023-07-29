@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="레이어_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 500 600" style="enable-background:new 0 0 500 600;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.6;fill:url(#SVGID_1_);}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:#D60341;}
+	.st3{fill:#E43E6B;}
+</style>
+<radialGradient id="SVGID_1_" cx="-112.8015" cy="674.0903" r="165.6532" gradientTransform="matrix(1.576 0 0 0.6536 428.1037 30.4299)" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#85220A"/>
+	<stop  offset="0.6245" style="stop-color:#F29300;stop-opacity:0"/>
+</radialGradient>
+<ellipse class="st0" cx="250.33" cy="471.03" rx="250.33" ry="112.55"/>
+<circle class="st1" cx="250.33" cy="168.62" r="74.88"/>
+<path class="st2" d="M250.33,20.68c-83.94,0-152,68.05-152,152c0,25.19,6.13,48.94,16.98,69.85c0,0,13.5,42.65,58.38,97.5
+	c41.56,50.78,76.64,84.03,76.64,84.03s35.08-33.25,76.64-84.03c44.89-54.86,58.38-97.5,58.38-97.5
+	c10.84-20.92,16.97-44.67,16.97-69.85C402.33,88.74,334.28,20.68,250.33,20.68z M251.44,242.67c-39.8,0-72.07-32.27-72.07-72.07
+	c0-39.8,32.26-72.07,72.07-72.07s72.07,32.26,72.07,72.07C323.51,210.41,291.25,242.67,251.44,242.67z"/>
+<ellipse transform="matrix(0.8392 -0.5438 0.5438 0.8392 -17.8536 115.5615)" class="st3" cx="186.49" cy="87.97" rx="62.05" ry="25.02"/>
+</svg>

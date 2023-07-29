@@ -1,0 +1,229 @@
+.profile {
+  margin-top: 15px;
+  font-family: $spoqa-font;
+
+  .backgroundDefaultColor {
+    position: fixed;
+    background-color: $flanet-light-gray;
+    border-radius: 8px;
+    bottom: 30px;
+    top: 105px;
+    left: 42px;
+    right: 42px;
+
+  }
+
+  .backgroundDefaultTop {
+    position: fixed;
+    background-color: $flanet-background-color;
+    background-image:url("../../assets/star3.png");
+    height: 25px;
+    left: 0px;
+    right: 0px;
+    top: 80px;
+    z-index: 20;
+  }
+
+  .backgroundDefaultBottom {
+    position: fixed;
+    background-color: $flanet-background-color;
+    background-image:url("../../assets/star3.png");
+    height: 30px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 20;
+  }
+
+
+  .profileBox {
+    position: absolute;
+    width: 90%;
+    height: 10%;
+    color: #B24BE5;
+    margin-left: 30px;
+
+    .userDisplayName {
+      position: absolute;
+      top: 110px;
+      left: 180px;
+      font-size: 24px;
+    }
+
+    .userEmail {
+      position: absolute;
+      top: 150px;
+      left: 180px;
+      font-size: 16px;
+    }
+    
+    h1 {
+      margin-left: 20px;
+    }
+
+    img {
+      margin-left: 50px;
+      margin-top: 5px;
+      width: 100px;
+      height: 100px;
+    }
+  }
+
+  .indexList {
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+  }
+
+  .selectIndex {
+    color: black;
+    cursor: default;
+  }
+
+  .indexBox {
+    margin-left: 1%;
+    cursor:pointer;
+    font-size: 20px;
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+
+  span {
+    line-height: 30px;
+    font-size: 16px;
+  }
+
+  .iconStyle {
+    vertical-align: middle;
+  }
+
+  .buttonStyle {
+    vertical-align: middle;
+    cursor: pointer;
+    margin-left: 10px;
+    color: #666666;
+  }
+
+  .storage {
+    position: absolute;
+    top: 330px;
+    width: 50%;
+    color: $flanet-green;
+    padding-bottom: 2%;
+    margin-left: 30px;
+    
+    h1 {
+      margin-left: 20px;
+    }
+
+    h2 {
+      margin-left: 30px;
+    }
+
+    .storageBox {
+      display: flex;
+      width: 88%;
+      margin: 10px;
+      margin-left: 20px;
+      margin-bottom: 20px;
+      padding: 10px;
+      font-size: 15px;
+      border: 3px solid;
+      border-color: $flanet-green;
+      border-radius: 15px;
+      height: 30px;
+      text-align: center;
+      justify-content: start;
+
+      .time {
+        position: absolute;
+        left: 4%;
+      }
+
+      .period {
+        position: absolute;
+        left: 30%;
+      }
+
+      .modelName {
+        position: absolute;
+        left: 40%;
+      }
+
+      .xmlName {
+        position: absolute;
+        left: 60%;
+      }
+
+      .inputTag {
+        width: 100px;
+      }
+
+      .typeName {
+        position: absolute;
+        left: 80%;
+      }
+
+      .learningModelName {
+        position: absolute;
+        left: 75%;
+      }
+    }
+  }
+
+  .history {
+    position: absolute;
+    left: 50%;
+    width: 50%;
+    color: $flanet-blue;
+    padding-bottom: 2%;
+    padding-right: 20px;
+
+    h1 {
+      margin-left: 7px;
+    }
+
+    h2 {
+      margin-left: 20px;
+    }
+
+    .historyBox {
+      display: flex;
+      left: 1%;
+      width: 88%;
+      margin: 10px;
+      margin-right: 40px;
+      margin-bottom: 20px;
+      padding: 10px;
+      font-size: 15px;
+      border: 3px solid;
+      border-color: $flanet-blue;
+      border-radius: 15px;
+      height: 30px;
+      text-align: center;
+      justify-content: space-between;
+      
+      .time {
+        position: absolute;
+        left: 3%;
+      }
+
+      .period {
+        position: absolute;
+        left: 40%;
+      }
+
+      .modelName {
+        position: absolute;
+        left: 75%;
+      }
+
+      .typeName {
+        position: absolute;
+        left: 80%;
+      }
+    }
+  }
+}

@@ -1,0 +1,80 @@
+plugins {
+	id 'org.springframework.boot' version '2.4.2'
+	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+	id 'java'
+}
+
+group = 'com.ssafy'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	// �⺻���� �߰���(starter-web, web-service, devtools)
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter-web-services'
+	developmentOnly 'org.springframework.boot:spring-boot-devtools'
+	implementation 'org.springframework.boot:spring-boot-starter-validation'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	
+	// Lombok
+	compileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
+	
+	// Swagger 2 && Swagger UI
+	implementation('io.springfox:springfox-swagger2:2.9.2')
+	implementation('io.springfox:springfox-swagger-ui:2.9.2')
+	implementation("io.swagger:swagger-annotations:1.5.21")
+	implementation("io.swagger:swagger-models:1.5.21")
+	
+	// Spring Security
+	implementation 'org.springframework.boot:spring-boot-starter-security'
+	testImplementation 'org.springframework.security:spring-security-test'
+	
+	// MySQL
+	runtimeOnly 'mysql:mysql-connector-java'
+	
+	// JPA
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	
+	// JWT
+	implementation 'io.jsonwebtoken:jjwt:0.9.1'
+	
+	//jsch라이브러리
+	// https://mvnrepository.com/artifact/com.jcraft/jsch
+	compile group: 'com.jcraft', name: 'jsch', version: '0.1.54'
+
+	
+	
+	// mail(�̸��� ����)
+   implementation 'org.springframework.boot:spring-boot-starter-mail'
+   
+   // oauth
+   implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
+   
+   	// ���� �Ҽ�
+	// https://mvnrepository.com/artifact/com.google.auth/google-auth-library-oauth2-http
+	compile group: 'com.google.auth', name: 'google-auth-library-oauth2-http', version: '0.21.1'
+	// https://mvnrepository.com/artifact/com.google.auth/google-auth-library-credentials
+	compile group: 'com.google.auth', name: 'google-auth-library-credentials', version: '0.21.1'
+	// https://mvnrepository.com/artifact/com.google.api-client/google-api-client
+	compile group: 'com.google.api-client', name: 'google-api-client', version: '1.30.10'
+	// https://mvnrepository.com/artifact/com.google.api-client/google-api-client-jackson2
+	compile group: 'com.google.api-client', name: 'google-api-client-jackson2', version: '1.27.0'
+	// https://mvnrepository.com/artifact/com.google.http-client/google-http-client-jackson2
+	compile group: 'com.google.http-client', name: 'google-http-client-jackson2', version: '1.35.0'
+   
+}
+
+test {
+	useJUnitPlatform()
+}

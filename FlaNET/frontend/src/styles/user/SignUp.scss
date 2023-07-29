@@ -1,0 +1,105 @@
+.signUp {
+  font-family: $spoqa-font;
+  padding-top: 2%;
+  padding-bottom: 100px;
+
+  h1 {
+    color: $flanet-green;
+  }
+
+  .modalComponentForSignup {
+    z-index: 95;
+
+    .modalComponentText {
+      position: fixed;
+      width: 80%;
+      height: 80%;
+      top: 10%;
+      left: 10%;
+      font-size: 11.5px;
+      color: white;
+    }
+
+    .modalComponentBackground {
+      position: fixed;
+      width: 90%;
+      height: 90%;
+      top: 5%;
+      left: 5%;
+      background-color: #000215;
+      border-radius: 60px;
+      opacity: 0.9;
+    }
+
+    .exitModalComponent {
+      position: fixed;
+      bottom: 8%;
+      left: 40%;
+      width: 20%;
+      text-align: center;
+      cursor: pointer;
+      font-size: 20px;
+      color: white;
+    }
+  }
+
+  .readSignUpTerm {
+    cursor: pointer;
+    font-weight: 550;
+    color: $flanet-green;
+    padding-top: 10px;
+    font-size: 16px;
+
+    &:hover {
+      transition-duration: 0.5s;
+      opacity: 0.5;
+    }
+  }
+
+  .signUpTerm {
+    input {
+      cursor: pointer;
+      border-color: $flanet-green;
+
+      &:checked {
+        background-color: $flanet-green;
+      }
+    }
+
+    label {
+      cursor: pointer;
+      color: $flanet-green;
+    }
+
+    &:hover {
+      transition-duration: 0.3s;
+      opacity: 0.5;
+    }
+  }
+
+  .signUpButton {
+    cursor: pointer;
+    background-color: $flanet-green;
+    padding: 8px;
+
+    &:hover {
+      transition-duration: 0.3s;
+      opacity: 0.5;
+    }
+  }
+  .returnLoginPage {
+    padding-top: 40px;
+
+    span {
+      color: $flanet-yellow;
+      font-weight: 700;
+      font-size: 20px;
+      cursor: pointer;
+
+      &:hover {
+        transition-duration: 0.3s;
+        opacity: 0.5;
+      }
+    }
+  }
+}

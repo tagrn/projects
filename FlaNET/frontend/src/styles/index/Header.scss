@@ -1,0 +1,59 @@
+.header {
+  display: flex;
+
+  .defaultBackgroundNavHeight {
+    height: 80px;
+  }
+
+  .defaultBackgroundNavColor {
+    position: fixed;
+    top: 0%;
+    background-color: $flanet-background-color;
+    height: 80px;
+    width: 110%;
+    left: -5%;
+    border-bottom: 2px solid;
+    border-color: $flanet-deep-gray;
+    z-index: 80;
+  }
+
+  .logo {
+    position: fixed;
+    width: 60px;
+    height: 48px;
+    left: 15px;
+    top: 13px;
+    z-index: 90;
+  }
+
+  .nav {
+    font-family: $spoqa-font;
+    z-index: 81;
+
+    .nava1 {
+      position: fixed;
+      right: 370px;
+      top: 26.5px;
+    }
+
+    .nava2 {
+      position: fixed;
+      right: 215px;
+      top: 27px;
+    }
+
+    .nava3 {
+      position: fixed;
+      right: 80px;
+      top: 27px;
+    }
+
+    a {
+      color: white;
+      font-size: 20px;
+      text-align: center;
+      font-weight: 500;
+      text-decoration: none;
+    }
+  }
+}

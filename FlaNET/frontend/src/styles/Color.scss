@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "NanumBarunGothic";
+  font-style: normal;
+  font-weight: 350;
+  src: url("//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot");
+  src: url("//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix")
+      format("embedded-opentype"),
+    url("//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff")
+      format("woff"),
+    url("//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf")
+      format("truetype");
+}
+
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+
+$spoqa-font: "Spoqa Han Sans", "NanumBarunGothic", sans-serif;
+$bgothic-font: "Spoqa Han Sans", "NanumBarunGothic", sans-serif;
+$flanet-font: "Spoqa Han Sans", sans-serif, Arial;
+$flanet-white: #ffffff;
+$flanet-light-gray: #eeeeee;
+$flanet-gray: #dfe1e2;
+$flanet-deep-gray: #bdbdbd;
+$flanet-black: #0d0d0d;
+$flanet-red: #d92525;
+$flanet-yellow: #f2b90c;
+$flanet-green: #47a644;
+$flanet-blue: #0db3d9;
+$flanet-background-color: #000212;
